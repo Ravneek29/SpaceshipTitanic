@@ -12,12 +12,17 @@
 
 ## Project Overview
 
-A machine learning project that predicts which passengers were transported to an alternate dimension during the Spaceship Titanic's collision. Built as part of the [Kaggle Spaceship Titanic competition](https://www.kaggle.com/competitions/spaceship-titanic).
+Predicted passenger survival on the Spaceship Titanic using structured tabular data with mixed feature types (categorical, boolean, numerical). Implemented and compared 7 classical ML models plus a neural network.
 
 ---
 
 ## Dataset
-The dataset used in this project contains information about passengers such as their ID, name, age, cabin, and other relevant features. The goal is to use these features to predict survival.
+
+- **Train set:** 8,693 passengers (after cleaning: 8,069)
+- **Test set:** 4,277 passengers (after cleaning: 3,990)
+- **Features:** PassengerId, HomePlanet, CryoSleep, Cabin, Destination, Age, VIP, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
+
+---
 
 ## Installation
 To set up this project locally, follow these steps:
@@ -46,15 +51,6 @@ To use this project, open the Jupyter Notebook `SpaceshipTitanic.ipynb` in your 
 - `models/`: Directory to save trained models.
 - `requirements.txt`: File containing the list of dependencies.
 
-## Results
-The project results include the accuracy of the survival predictions, as well as insights gained from analyzing the dataset. These results are documented in the notebook.
-
-## Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
 
 ## Results
 
@@ -73,19 +69,12 @@ All classical models tuned with **5-fold cross-validation GridSearchCV**.
 
 ---
 
-## Project Overview
 
-Predicted passenger survival on the Spaceship Titanic using structured tabular data with mixed feature types (categorical, boolean, numerical). Implemented and compared 7 classical ML models plus a neural network.
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your improvements or bug fixes.
 
----
-
-## Dataset
-
-- **Train set:** 8,693 passengers (after cleaning: 8,069)
-- **Test set:** 4,277 passengers (after cleaning: 3,990)
-- **Features:** PassengerId, HomePlanet, CryoSleep, Cabin, Destination, Age, VIP, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck
-
----
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Methodology
 
